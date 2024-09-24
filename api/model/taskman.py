@@ -3,7 +3,7 @@ import json
 from pydantic import TypeAdapter
 from typing import List, Optional
 
-filepath = "data/tasks.json"
+filepath = "api/data/tasks.json"
 
 def parse_file_as(path_to_the_file):
   with open(path_to_the_file) as f:
